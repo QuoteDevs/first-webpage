@@ -1,0 +1,50 @@
+
+
+.wrapper, html, body{
+    height: 100%;
+    margin: 0;
+    
+}
+
+
+/*sets up flex on the page */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.wrapper div {
+
+
+    font-family: roboto;
+    flex:1 1 auto;
+    
+}
+
+
+.header {
+    background-color: #1f2937;
+}
+
+.main {
+    background-color: white;
+}
+
+.sub {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: white;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    background-color: #1f2937;
+    height: 25%;
+    width: 100%;
+}
